@@ -1,0 +1,32 @@
+
+/*
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.container, .container {
+ font-size: 18px;   
+}
+
+.font_avs_logo {
+    text-shadow: none;
+}
+
+.c_grayboxed 
+{
+	margin-bottom: 5px;
+	border: none;
+	padding: 7px 10px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+    padding-left: 10px;
+    box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+*/
+
+#tabs-1 li {
+	margin-left: 20px;
+}

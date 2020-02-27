@@ -1,0 +1,21 @@
+@font-face
+{
+font-family: JockeyOne;
+src: url(JockeyOne.otf)
+}
+
+.font_avs_logo 
+	{
+	font: normal normal normal 28px/1.1em tahoma, tahoma-w01-regular, tahoma-w02-regular, tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular, sans-serif;
+	color: rgb(28, 27, 27);
+	font-size:50px;
+  	display:inline-block;text-shadow:grey 0px 4px 5px;
+	font-family:JockeyOne, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	
+}
+.font_avs_logo2
+	{
+	color: #4D71A3;
+}
+
