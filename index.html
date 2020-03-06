@@ -452,10 +452,27 @@ $('.without-caption').magnificPopup({
    <tbody><tr>
       <td>
          <div class="c_grayboxed">
-            <div style="color: green; font-size:14pt; width:900px; word-wrap: break-word;">Contact us for lowest price (800) 284-2288, (858) 565-1101, <a href="mailto:sales@avsupply.com?subject=Pricing%20Inquiry%20for%20%20JAI%20%20Model:%20%20%20CV-M9CL%20%20&amp;body=Pricing%20Inquiry%20for%20%20JAI%20%20Model:%20%20CV-M9CL%20%20">sales@avsupply.com</a>, or fax (858) 565-7845 <a href="mailto:sales@avsupply.com?subject=Pricing%20Inquiry%20for%20JAI%20Model:%20CV-M9CL%20&amp;body=Pricing%20Inquiry%20for%20JAI%20Model:%20CV-M9CL%20"></a></div>
-            </div>
+            <div style="color: green; font-size:14pt; width:900px; word-wrap: break-word;"><button id="wufoo-btn">Contact us</button> for lowest price (800) 284-2288, (858) 565-1101, <a href="mailto:sales@avsupply.com?subject=Pricing%20Inquiry%20for%20%20JAI%20%20Model:%20%20%20CV-M9CL%20%20&amp;body=Pricing%20Inquiry%20for%20%20JAI%20%20Model:%20%20CV-M9CL%20%20">sales@avsupply.com</a>, or fax (858) 565-7845 <a href="mailto:sales@avsupply.com?subject=Pricing%20Inquiry%20for%20JAI%20Model:%20CV-M9CL%20&amp;body=Pricing%20Inquiry%20for%20JAI%20Model:%20CV-M9CL%20"></a></div>
+            <script>
+               $(document).ready(function() {
+                  $("#wufoo-container").hide()
+                  $("#wufoo-btn").on("click", function () {
+                     console.log("button clicked")
+                     $("#wufoo-container").toggle()
+                  });
+               })
+            </script>
+         </div>
       </td>
-  </tr>   <tr>
+  </tr>
+<tr>
+   <td>
+      <div id="wufoo-container">
+         <div id="wufoo-zusgorx1mop6yb"> </div> <script type="text/javascript"> var zusgorx1mop6yb; (function(d, t) { var s = d.createElement(t), options = { 'userName':'chesteraustin', 'formHash':'zusgorx1mop6yb', 'autoResize':false, 'height':'1157', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zusgorx1mop6yb = new WufooForm(); zusgorx1mop6yb.initialize(options); zusgorx1mop6yb.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>               
+      </div>
+   </td>
+</tr>
+  <tr>
       <td>
        <div class="c_grayboxed" style="width:900px; word-wrap: break-word;">
       Digital 3CCD Progressive Scan RGB Color Camera
